@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #343541;
+    display: flex;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 120px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.side-bar {
+    background-color: #202123;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    padding: 11px;
+}
+
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0 , 0, 0, 0.05) 0 54px 55px,
+    rgba(0 , 0, 0, 0.05) 0 -12x 30px,
+    rgba(0 , 0, 0, 0.05) 0 4px 6px,
+    rgba(0 , 0, 0, 0.05) 0 12px 3px,
+    rgba(0 , 0, 0, 0.05) 0 -3px 5px
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-container #submit {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+#output {
+    padding: 20px;
+    font-size: 14px;
+}
+
+button {
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    cursor: pointer;
+}
+
+nav {
+    border-top: solid 0.5px rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+nav p {
+    margin: 10px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.history {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+}
+
+.history p {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 14px;
+}
