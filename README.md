@@ -11,6 +11,6 @@ Chat with three previous messages on the sidebar and the latest chatgpt response
 <img src="images/chatgpt2.png">
 
 
-My personal OpenAI API key is not uploaded onto GitHub.
+My personal OpenAI API key is not uploaded onto GitHub (###_This is the reason why this project is not in githup pages_).
 
 Get your API key from: https://platform.openai.com/docs/api-reference/authentication
