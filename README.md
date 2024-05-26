@@ -1,5 +1,5 @@
 # Javascript ChatGPT Clone
-ChatGPT clone using JavaScript, HTML, CSS and OpenAI API with sidebar that contains previous chat message history and new chat button.
+ChatGPT clone using JavaScript, HTML, CSS and OpenAI API with sidebar that contains previous chat message history and new chat function.
 
 
 Opening view
