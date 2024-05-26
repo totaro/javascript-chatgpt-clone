@@ -10,3 +10,6 @@ Chat with three previous messages on the sidebar and the latest chatgpt response
 
 <img src="images/chatgpt2.png">
 
+
+My personal API key is not uploaded onto GitHub
+Get your API key from: https://platform.openai.com/docs/api-reference/authentication
